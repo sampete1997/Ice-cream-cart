@@ -1,0 +1,335 @@
+
+
+
+.home{
+
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+
+.checkout{
+  width: 45%;
+  height: 30rem;
+  background-color: rgba(202, 202, 202, 0.267);
+  margin-top: 1rem;
+  text-align: center;
+  color: rgb(50, 241, 50);
+  border-radius: 1rem;
+
+}
+
+.IceCreamcontainer{
+
+    text-align: center;
+    
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 800;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    /* background-image: url('https://img.freepik.com/free-photo/ice-cream-scoops-with-vanilla-chocolate-berry-scoops-topping_488220-3948.jpg?w=826'); */
+    /* border-radius: 2rem; */
+    width: 99%;
+    background-position: right;
+    display: flex;
+   
+  
+}
+.IceCreamcontainer div{
+ 
+  margin-left: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  color: rgb(34, 221, 9);
+  
+  
+}
+
+.IceCreamHeading{
+  
+  width: 30%;
+  /* border: 1px solid; */
+  color: rgb(33, 253, 4);
+  text-decoration: none;
+  border-radius: 2rem;
+  align-self: center;
+  padding: 0;
+
+}
+
+
+
+.CartImg{
+
+  width:  3.0rem;
+  height: 3.0rem;
+  align-self: center;
+  
+  border-radius: 1rem;
+
+ 
+  
+}
+.CartImg:hover{
+
+  transform: scale(1.1);
+}
+
+.Items{
+
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  /* background-color: rgba(202, 202, 202, 0); */
+  border-radius:1rem;
+  border: 1px solid rgba(0, 128, 0, 0.185);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+
+  
+}
+
+.CartItems{
+
+  margin: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 55%;
+  background-color: rgba(202, 202, 202, 0);
+  border-radius:1rem;
+  border: 1px solid rgba(0, 128, 0, 0.185);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.DetailTag{
+
+  align-items: center;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+.IceCreamData{
+
+  margin-top:1rem;
+  
+  width: 30%;
+  /* border: 1px solid rgba(0, 0, 0, 0.164); */
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: white;
+  font-weight: 300;
+  text-align: center;
+  box-shadow: -2px -3px 15px 15px rgba(191, 194, 190, 0.822);
+  
+
+ 
+
+}
+
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+.PriceTag{
+  color:black;
+
+}
+.NameTag{
+ 
+  padding: 0.2rem;
+  border-radius:1rem;
+  width: 100%;
+ 
+}
+.IceCreamImags{
+ 
+  margin:0.2rem;
+  width: 98%;
+  height: 9rem;
+  
+ 
+
+}
+
+
+.CartIceCreamImags{
+ 
+  margin:0.2rem;
+  width: 50%;
+  height: 8rem;
+  
+ 
+
+}
+
+.CartBtn{
+
+  margin:0.5rem;
+  width: 6rem;
+  height: 3rem;
+  border: 1px solid greenyellow;
+  border-radius: 1rem;
+  background: rgba(248, 243, 243, 0.884);
+	font-weight: 500;
+	border-style: solid;
+  color:rgb(5, 102, 21);
+  padding: 0.5rem;
+
+}
+
+
+
+.CartBtn:active{
+  transform: scale(1.05);
+  color: red;
+  border: 1px solid red;
+  
+}
+
+
+
+.IncrementBtn{
+  margin:0.5rem;
+  width: 3rem;
+  height: 2rem;
+  border: 1px solid greenyellow;
+  border-radius: 1rem;
+  background: rgba(248, 243, 243, 0.884);
+	font-weight: 500;
+	border-style: solid;
+  color:rgb(5, 102, 21);
+  padding: 0.5rem;
+
+}
+
+.IncrementBtnDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 8 rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+ 
+}
+
+
+
+.IceCreamData:hover{
+  transform: scale(1.03);
+  background-color: rgba(255, 170, 11, 0.822); ;
+}
+
+.CartIceCreamData{
+
+  margin-top:1rem;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  height: 15rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.164); */
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: white;
+  font-weight: 300;
+  text-align: center;
+  box-shadow: -2px -3px 15px 15px rgba(191, 194, 190, 0.822);
+ 
+
+}
+
+.CartContainer{
+
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.AddToCart{
+
+  
+  margin-top: 2rem;
+  width: 90%;
+  height: 25rem;
+  background-color: rgba(243, 239, 243, 0.719);
+  border: 1px solid rgba(29, 27, 27, 0.185);
+  
+}
+
+.DeleteBtn{
+  color:blue;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid blue;
+}
+.DeleteBtn:focus{
+  transform: scale(1.08);
+  color: red;
+  border: 1px solid red;
+  
+}
+
+
+.orderHead{
+  color:rgb(33, 253, 4);;
+  text-decoration: none;
+}
+
+
+@media(max-width: 1000px){
+
+  .Items{
+
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   width: 80%;
+    /* background-color: rgba(202, 202, 202, 0); */
+    border-radius:1rem;
+    border: 1px solid rgba(29, 255, 29, 0.959);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+  
+    
+  }
+
+
+  .IceCreamData{
+
+    margin-top:1rem;
+    
+    
+    width: 80%;
+    /* border: 1px solid rgba(0, 0, 0, 0.164); */
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: white;
+    font-weight: 300;
+    text-align: center;
+    box-shadow: -2px -3px 15px 15px rgba(191, 194, 190, 0.822);
+   
+  
+  }
+}

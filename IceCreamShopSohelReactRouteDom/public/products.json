@@ -1,0 +1,27 @@
+[
+    {
+        "price": 90,
+        "name": "Vanilla Icecream Scoop",
+        "image": "https://st.depositphotos.com/1000589/2825/i/950/depositphotos_28256489-stock-photo-ice-cream.jpg"
+    },
+    {
+        "price": 122,
+        "name": "ButterScotch Icebar",
+        "image": "https://www.pixsavor.com/uploads/large/ice-cream/butterscotch-ice-cream-sundae.jpg"
+    },
+    {
+        "price": 80,
+        "name": "Chocolate Icecream",
+        "image": "https://c4.wallpaperflare.com/wallpaper/17/288/29/the-sweetness-food-chocolate-ice-cream-wallpaper-preview.jpg"
+    },
+    {
+        "price": 115,
+        "name": "PowderKeg Custord",
+        "image": "https://zaykarecipes.com/eng/wp-content/uploads/2020/04/Custard-Ice-Cream-Recipe-1.jpg?ezimgfmt=rs%3Adevice%2Frscb4-1"
+    },
+    {
+        "price": 210,
+        "name": "Frozen Peanut Bar Icecream",
+        "image": "https://c1.wallpaperflare.com/preview/247/300/992/ice-cream-chocolate-dessert-frozen.jpg"
+    }
+]
